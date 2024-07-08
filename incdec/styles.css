@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.678);
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.count {
+  padding: 0 20px;
+}
+.counter:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.521);
+}
